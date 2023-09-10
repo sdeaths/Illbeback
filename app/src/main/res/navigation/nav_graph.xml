@@ -7,21 +7,21 @@
 
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.example.illbeback.StartFragment"
+        android:name="com.example.illbeback.presentation.LoginFragment"
         android:label="fragment_start"
-        tools:layout="@layout/fragment_start" >
+        tools:layout="@layout/fragment_login" >
         <action
             android:id="@+id/action_startFragment_to_secondFragment"
             app:destination="@id/secondFragment" />
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.example.illbeback.SecondFragment"
+        android:name="com.example.illbeback.presentation.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" />
     <fragment
         android:id="@+id/thirdFragment"
-        android:name="com.example.illbeback.ThirdFragment"
+        android:name="com.example.illbeback.presentation.ThirdFragment"
         android:label="fragment_third"
         tools:layout="@layout/fragment_third" />
 </navigation>
