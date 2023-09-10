@@ -1,10 +1,11 @@
-package com.example.illbeback
+package com.example.illbeback.presentation
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.illbeback.R
 import com.example.illbeback.databinding.FragmentSecondBinding
 
 class SecondFragment : Fragment() {
